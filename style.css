@@ -18,11 +18,18 @@ span{
 }
 .container1{
     width: 30%;
+    margin-top: 40px;
 }
 .container{
     background-color: white;
-    border: 2px solid red;
+    border-radius: 10px;
     display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.trio{
+    margin-top: 20%;
 }
 .new{
     display: flex;
@@ -39,13 +46,14 @@ span{
     color: #BFBFBF;
 }
 .text h3{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 button{
     padding: 7px 15px;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
+    cursor: pointer;
 }
 #free{
     color: #41BF41;
@@ -66,7 +74,12 @@ hr{
     color: #BFBFBF;
 }
 .container2{
-    width: 40%;
+    width: 35%;
+    margin-top: 40px;
+}
+.text p{
+    margin-left: 20%;
+    margin-bottom: 10px;
 }
 .sub1{
 margin-top: 20px;
@@ -148,6 +161,7 @@ margin-bottom: 20px;
 }
 .inline{
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 .value{
@@ -156,4 +170,101 @@ margin-bottom: 20px;
 .text3 a{
     color: blue;
 }
+.check{
+    display: flex;
+    gap: 8px;
+    margin-top: 25px;
+}
+.container3{
+    background-color: #EDEFF6;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.first{
+    margin-top: 20px;
+    line-height: 1.9;
+}
 
+.No{
+    display: flex;
+    justify-content: space-around;
+}
+.numeral{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: white;
+}
+.add{
+    background-color: #41BF41;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 10px;
+    width: 100%;
+}
+.paypal{
+    display: flex;
+    justify-content: center;
+}
+.pay{
+    background-color: #F6AB4A;
+    margin-top: 10px;
+    padding: 15px 10px;
+    width: 100%;
+}
+.wish{
+    display: flex;
+    color: #BFBFBF;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.heart{
+    display: flex;
+    border-right: #BFBFBF;
+    gap: 5px;
+}
+.compare{
+    display: flex;
+    gap: 5px;
+}
+.card{
+    margin-top: 15px;
+}
+.card img{
+    margin-top: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.subs{
+    background-color: #EDEFF6;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.quick{
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* margin: 20px; */
+}
+.delivery{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.smart1{
+    background-color: white;
+}
+.ass{
+    display: flex;
+}
+.ass h1{
+    border: 1px solid red;
+    margin-top: 7%;
+    height: 30px;
+    border-radius: 20px;
+}
