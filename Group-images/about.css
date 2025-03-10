@@ -10,9 +10,14 @@
 body {
     background-color: #fff;
 }
+.main {
+    width: 100%;
+    background-color: rgb(226, 228, 235);
+}
 
 .section1 {
-    width: 100%;
+    width: 90%;
+    margin: 10px auto;
     background-image: url(/Group-images/about1.png);
     padding: 50px 0px 50px 50px;
 }   
@@ -32,7 +37,9 @@ body {
 
 
 .section2 {
-    width: 100%;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
     padding: 50px 0px 50px 50px;
     display: flex;
 }
@@ -61,25 +68,32 @@ body {
 
 
 .section3 {
-    width: 100%;
-    padding: 50px 0px 50px 0px;
+    width: 90%;
+    margin: 1px auto;
+    background-color: #fff;
+    padding: 0px 0px 0px 0px;
     display: flex;
 }
+.section3-1 {
+    width: 100%;
+    margin-right: 3px;
+}
 .section3-2 {
-    background-color: rgb(226, 228, 235);
-    border-radius: 10px;
-    padding: 70px;
+    width: 100%;
+    background-color: #e2e4eb;
+    border-radius: 10px ;
+    padding: 70px 10px 0px 70px;
 }
 .section3-2 h3 {
     width: 100%;
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 30px;
 }
 .section3-2 p {
     width: 100%;
     font-size: 17px;
     line-height: 1.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .section3-2 button {
     width: 35%;
@@ -90,3 +104,96 @@ body {
     background-color: rgb(22, 195, 22);
     border: none;
 }
+
+.section4 {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+.section4-1 {
+    width: 33%;
+    margin: 5px;
+}
+.flex1 {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+.percent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.percent1 img {
+    width: 40px;
+    margin-bottom: 50px;
+}
+.percent1 h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.flex1 p {
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.section4-2 {
+    width: 33%;
+    margin: 5px;
+}
+.flex2 {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+.percent2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.percent2 img {
+    width: 40px;
+    margin-bottom: 50px;
+}
+.percent2 h2 {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.flex2 p {
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+
+.section4-3 {
+    width: 33%;
+    margin: 5px;
+}
+.flex3 {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+.percent3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.percent3 img {
+    width: 40px;
+    margin-bottom: 50px;
+}
+.percent3 h2 {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.flex3 p {
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding-bottom: 24px;
+}
+
+
+
