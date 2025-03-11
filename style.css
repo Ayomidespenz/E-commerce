@@ -150,9 +150,7 @@ button{
 .section{
     display: flex;
 }
-.txt1{
-    /* margin-left: -35px; */
-}
+
 .txt1 h3{
 font-size: 12px;
 width: 155px;
@@ -230,12 +228,9 @@ line-height: 1.5;
     margin-right: 60px;
 }
 .exter1 .pay{
-    /* border: 2px solid grey; */
     padding: 20px;
 }
-.txt12{
-    /* border: 2px solid red; */
-}
+
 .txt12 h3{
     font-size: 14px;
 }
