@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+    /* border: 1px solid blue; */
+    background-color: rgb(226, 228, 235);
+   
+}
+.header{
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 10px;
+    list-style-type: none;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+.header a{
+    text-decoration: none;
+}
+
+.header a:link,
+.header a:visited {
+    color: rgb(140, 140, 140);
+}
+
+.header a:hover,
+.header:active {
+    color: black ;
+}
+
+
+.fl{
+    display: flex;
+    gap: 30px;
+}
+.bodi{
+    border: 1px solid brown; 
+    background-color: white;
+    padding: 20px;
+}
+h3{
+    /* border: 1px solid red; */
+}
+.rh{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid yellow;  */
+    margin-top: 20px;
+    gap: 20px;
+}
+.return{
+    /* border: 1px solid red; */
+    padding: 10px; 
+    width: 60%;
+    background-color: rgb(226, 228, 235);
+    border-radius: 5px;
+}
+.return a{
+    color: red;
+}
+.have{
+    /* border: 1px solid blue; */
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(226, 228, 235);
+    border-radius: 5px;
+}
+.have a{
+    color: red;
+}
+h4{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+}
+.star{
+    color: red;
+}
+.fl{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.form1{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.form1 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+}
+
+.form2{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+.form2 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form3{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.form3 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form4{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.form4 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form5{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; 
+}
+.form5 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form6{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;  
+}
+.form6 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form7{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; 
+}
+.form7 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px; 
+}
+.form8{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; 
+}
+.form8 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px; 
+}
+.form9{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; 
+}
+.form9 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;  
+}
+.form10{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; 
+}
+.form10 .in{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form11{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; 
+}
+h4{
+    /* border: 1px solid blue;   */
+    padding: 10px;
+}
+.form12{
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.form12 textarea{
+    width: 100%;
+    /* height: 40px; */
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.form-order{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-end;
+}
+form{
+    width: 50%;
+    /* border: 3px solid blue; */
+}
+.order{
+    width: 50%;
+    /* border: 3px solid yellow; */
+    
+}
+.form-order{
+    /* border: 3px solid red; */
+    width: 100%;
+    gap: 20px;
+}
+
+.product{
+    background-color: rgb(237, 239, 245);
+}
+.direct{
+    background-color: rgb(223, 225, 233);
+}
+.pro-sub{
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+
+    padding: 20px;
+}
+.image-pine{
+    /* border: 3px solid yellow; */
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+.world-red{
+    /* border: 3px solid yellow; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direct{
+    /* border: 3px solid yellow; */
+line-height: 30px;
+padding: 20px;
+}
+.last-group{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(26, 185, 26);
+}
