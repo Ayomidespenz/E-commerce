@@ -106,3 +106,19 @@ input{
 .imag img{
     margin: 0px 10px;
 }
+
+@media screen and (max-width:1024px) {
+footer{
+    font-size: 11px !important;
+}
+.f2, .f2 h2, .f1, .f1 h1, .f1 h2{
+    font-size: 13px ;
+}
+    .imag img{
+    margin: 0px 2px;
+}
+.imag img{
+    width: 40px;
+    height: 20px;
+}
+}
