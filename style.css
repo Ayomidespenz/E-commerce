@@ -44,9 +44,7 @@ body{
     background-color: white;
     padding: 20px;
 }
-h3{
-    /* border: 1px solid red; */
-}
+
 .rh{
     display: flex;
     justify-content: space-between;
