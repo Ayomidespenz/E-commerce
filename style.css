@@ -145,8 +145,242 @@ font-weight: 700;
     justify-content: space-evenly;
 }
 
+/* body part */
+.part1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.pic-img1{
+width: 23%;  
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+padding: 30px 0px 0px;
+}
+.pic-img2{
+    width: 50%;
+}
+.pic-img3{
+    width: 24.2%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.pic-img1 p{
+    text-transform: uppercase ;
+line-height: 40px;
+}
+.pic-text{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: white;
+}
+.pic-text h1{
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+}
+.pic-text p{
+    color: white;
+margin: 8px 0px 20px 20px;
+}
+.pic-text button{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.pic-toget{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pic-main, .pic-sub{
+    width: 49%;
+    position: relative;
+}
+.pic-main img, .pic-sub img{
+    width: 100%;
+}
+.pic-head{
+  position: relative;
+  margin-bottom: 10px;
+}
+.pic-head img{
+width: 100%;
+border-radius: 10px;
+
+}
+.pic-text1{
+    position: absolute;
+    top: 20px;
+left: 20px;
+}
+
+.pic-text1 p{
+text-decoration: underline;
+}
+
+.pic-text11 p{
+color: white;
+}
+.pic-text11{
+    position: absolute;
+    top: 20px;
+left: 20px;
+
+}
+.pic-text1 span{
+color: green;
+}
+.pic-text11 span{
+color: #FFC107;
+}
+.pic-text1 h1{
+    font-size: 18px;
+    color: black;
+}
+.pic-text11 h1{
+    font-size: 18px;
+    color: white;
+}
+
+.pic-img31, .pic-img311{
+    width: 100%;
+    position: relative;
+}
+.pic-img31 img {
+    width: 99%;
+margin-bottom: 5px;
+}
+.pic-img311 img{
+width: 99%;
+}
+.pic3-text1{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.pic3-text1 h1{
+    color: black;
+}
+.pic3-text1 button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    margin-top: 20px;
+}
+.pic3-text11{
+    position: absolute;
+top: 25px;
+left: 30px;
+}
+.pic3-text11 h1{
+    color: white;
+    font-weight: 500;
+}
+.pic3-text11 p{
+    margin-top: 50px;
+    font-size: 20px;
+color: white;
+}
+.pic3-text11 span{
+    color: green;
+}
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.part2a{
+    padding: 30px;
+    width: 49%;
+    background-color: white
+}
+.part2a img{
+    /* flex: 20%; */
+    /* flex-wrap: wrap; */
+    width: 14%;
+    margin: 20px 20px;
+}
+.feat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#tag{
+    width: 20%;
+height: 20%;
+}
+.tag{
+   margin: 30px 20px; 
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid;
+    justify-content: space-between;
+}
+.alone{
+    background-color: #1ABA1A;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.part3a{
+    width: 79%;
+}
+.part31{
+    display: flex;
+    flex-direction: row;
+}
+.part31a{
+    width: 50%;
+    border: 1px solid;
+}
+.part31b{
+    border: 1px solid;
+}
+.part3a img {
+    width: 100%;
+}
+.part3b{
+    width: 20%;
+}
+.game{
+    width: 100%;
+}
+.game img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* ends of it */
 footer{
     background-color: white;
+    margin: 10px 0;
 }
 #footer{
     width: 100%;
