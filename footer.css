@@ -103,3 +103,6 @@ input{
     flex-direction: row;
     justify-content: center;
 }
+.imag img{
+    margin: 0px 10px;
+}
