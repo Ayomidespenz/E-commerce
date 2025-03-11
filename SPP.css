@@ -109,7 +109,7 @@ ul{
     font-family:  monospace;
 }
 .allcart{
-    border: 1px solid lawngreen;
+    background-color: rgb(236, 236, 236);
     border-radius: 5px;
     padding: 12px;
     width: 90%;
@@ -159,24 +159,28 @@ ul{
 .product{
     border: 5px sold black;
     width: 20%;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-left: 3%;
     margin-top: 3%;
 }
 .num{
     text-align: center;
     font-size: 15px;
+    padding: 5px;
 }
 .product h3{
     color: red;
+    padding: 12px 0px;
 }
 del{
     color: gray;
     font-size: 15px;
 }
 .shipping{
-    font-size: 10px;
+    font-size: 13px;
+    padding: 12px 0px;
     color: lime;
+    /* border: 1px solid black; */
 }
 .phoneflex{
     display: flex;
@@ -190,9 +194,203 @@ del{
     display: flex;
     flex-direction: row;
     width: 80%;
+}
+.review{
+    display: flex;
+   justify-content: space-between;
+   width: 40%;
+   padding: 15px ;
+}
+
+.imgflex{
+    display: flex;
+}
+.imgflex img{
+    width: 100%;
+    padding: 15px 0px;
+}
+.det4{
+    width: 100%;
+}
+.section2 p{
+ padding: 12px;
+}
+#Galaxy{
+    text-align: center;
+}
+.section2 h2{
+    padding: 12px;
+}
+.pro{
+    display: flex;
+    background-color: rgb(207, 199, 199);
+    padding: 12px;
+}
+.pro p{
+    margin-left: 12px;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    /* margin-left: 20px; */
+    /* border: 1px solid rebeccapurple; */
+    width: 80%;
+    margin: auto;
+}
+.price1{
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 12px;
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    margin: auto;
+    margin-left: 205;
+   
+}
+.Mac{
+    /* border: 1px solid rebeccapurple; */
+    margin-left:10%;
+}
+.pri{
+    margin-left:8%;
+   
+}
+.pri1{
+    margin-left:12%;
+    border: 1px solid gray;
+    height: 19px;
+    padding:  0px 15px;
     
+}
+.pri2{
+    margin-left:19%;
+}
+.view1{
+    display: flex;
+    margin-top: 5px;
+    justify-content: end;
+    padding: 12px;
+    
+}
+.view1 .button1 {
+    padding: 12px 19px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+.view1 .button2 {
+    padding: 12px 19px;
+    background-color: rgb(10, 175, 38);
+    border: none;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+.view1 a {
+   color: aliceblue;
+   text-decoration: none;
+}
+.log{
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    border-radius: 6px;
+    padding: 12px 90px;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+}
+.log a {
+    color: red;
+    padding: 5px;
+}
+/* form */
+.flex{
+    display: flex !important;
+    flex-direction: row;
+    justify-content:space-around ;
+    /* border: 1px solid red; */
+    padding: 12px;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.form{
+   padding: 35px;
+}
+.sub{
+    display: flex;
+}
+.Billing{
+    display: flex;
+    width: 100%;
+}
+.detail{
+    width: 70%;
+    /* border: 1px solid red; */
+    padding: 12px;
+}
+ .text input{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 2%;
+    border: 1px solid rgb(177, 177, 182);
+
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    /* border: 1px solid blue; */
+    width: 100%;
+    padding: 12px;
+}
+#select{
+  width: 100%; 
+  padding: 10px 0px; 
+}
+.text1{
+    display: flex;
+    flex-direction:column;
+    /* border: 1px solid blue; */
+    width: 50%;
+    padding: 12px;
+}
+.text1 input{
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid rgb(177, 177, 182);
+}
+textarea{
+    width: 100%;
+}
+
+.phones{
+    display: flex;
+}
+.paymentcard img{
+    width: 90%;
+}
+.your{
+    margin-top: 10%;
+   
+}
+legend{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.view2{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+.add h4{
+    padding: 5px;
 }
 
 
+
+
+
+ 
 
 
