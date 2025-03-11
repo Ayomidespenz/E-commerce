@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+    border: 1px solid blue;
+    background-color:rgb (226, 228, 235);
+   
+}
+.header{
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 10px;
+    list-style-type: none;
+    gap: 20px;
+    background-color: rgb(250, 250, 250);
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+
+.main-container{
+    display: flex;
+  /* flex-direction: row; */
+  align-items: flex-end;
+    gap: 20px;
+    background-color: #fff;
+}
+.aside{
+    /* background-color: #f90202; */
+    width: 100%;
+}
+.both{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.second-container{
+    border: 1px solid green;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+ 
+   
+}
+.second-container p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second-container h3{
+    padding: 20px;
+}
+.second-container p{
+    padding: 20px;
+}
+.second-container h4{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.second-container button{
+    width: 50%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+}
+.save {
+    background-color: rgb(250, 250, 250);
+/* border: 2px solid red; */
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.circle {
+    display: flex;
+    flex-direction: row;
+}
+.round{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+background-color: rgb(235, 130, 130);
+}
+.one {
+    background-color: #ccc;
+}
+.saves {
+    background-color: green;
+    width: 90px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+.saves p {
+    font-weight: 700;
+}
+.saves p > span {
+    font-weight: 300;
+}
+.smart {
+background-color: #ccc;
+display: flex;
+flex-direction: column;
+/* border: 2px solid red; */
+width: 100%;
+}
+.joins {
+    display: flex;
+    /* border: 2px solid gold; */
+    width: 150%;
+    justify-content: space-between;
+}
+.img{
+    width: 40%;
+    background-color: #fff;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+}
+.second-division{
+    /* border: 3px solid blue; */
+    padding:5px;
+    width: 55%;
+    /* position: relative; */
+}
+.second-division p{
+    text-align: center;
+    padding: 10px;
+}
+.second-division h4 {
+    font-size: 0.8rem;
+    margin: 20px 0;
+}
+.second-division h3{
+    color: red;
+}
+.img img {
+    margin-top: -40px;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 59%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.free {
+    text-decoration: none;
+    color: green;
+    display: inline-block;
+    margin: 10px 0;
+}
+.in {
+    margin: 10px 0;
+}
