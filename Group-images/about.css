@@ -118,6 +118,7 @@ body {
     width: 100%;
     background-color: #fff;
     padding: 30px;
+    border-radius: 10px;
 }
 .percent1 {
     display: flex;
@@ -145,6 +146,7 @@ body {
     width: 100%;
     background-color: #fff;
     padding: 30px;
+    border-radius: 10px;
 }
 .percent2 {
     display: flex;
@@ -174,6 +176,7 @@ body {
     width: 100%;
     background-color: #fff;
     padding: 30px;
+    border-radius: 10px;
 }
 .percent3 {
     display: flex;
@@ -196,4 +199,62 @@ body {
 }
 
 
+.section5 {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 30px;
+}
+.section5-1 h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.section5-1 p {
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+.section5-1 img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section5-2 h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section5-2 h6 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.text-flex {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 20px;
+}
+.text {
+    width: 50%;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
 
+.section5-3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.section5-3 h3 {
+    margin-bottom: 30px;
+}
+.leaders {
+    display: flex;
+}
+.images {
+    width: 20%;
+    margin: 5px;
+}
+.images h2 {
+    font-size: 17px;
+}
+.images p {
+    font-size: 12px;
+}
