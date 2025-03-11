@@ -98,6 +98,12 @@ hr{
     align-items: center;
     /* margin-left: 40px; */
 }
+.cart #img211{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-left: 40px; */
+}
 #circle img{
     margin-right: 5px;
     width: 40px;
@@ -147,3 +153,105 @@ input{
     justify-content: space-evenly;
 }
 
+
+@media screen and (max-width:1024px) {
+    .nav2{
+        width: 100%;
+        border: 1px solid;
+    }
+    .img1{
+        width: 100%;
+        border: 1px solid;
+    text-wrap: nowrap;
+    }
+    .logo{
+        width: 50%;
+    }
+    #logo{
+        width: 100px;
+    }
+    .logo a p{
+        font-size: 14px;
+        border: 1px solid;
+        margin: 2px;
+        padding: 0px 3px;
+    }
+    .img2 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+    }
+    #img211{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: none;
+        border: 1px solid red;
+    }
+    input{
+        width: 50%;
+        padding: 20px;
+        border: none;
+        border-radius: 60px;
+    }
+    #lens{
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        width: 10px;
+    }
+    label{
+        border: none;
+        width: 10%;
+        padding: 10px;
+        font-size: 10px;
+        }
+        .its-text{
+            width: 68%;
+            border: 1px solid;
+    margin-top: -42px;
+
+            justify-content: space-evenly;
+            font-size: 15px;
+        }
+        .its-text p{
+            margin: 0 10px;
+        }
+        .search-sec{
+            width: 30%;
+            border: 1px solid;
+        }
+        .search{
+            width: 100%;
+        }
+        #circle{
+            width: 50%;
+        }
+        #circle img{
+            width: 30px;
+            margin: 0;
+        }
+        #cirtext{
+            width: 50%;
+            margin: 0;
+            padding: 0;
+        }
+        #cirtext p, #cirtext a, #cirtext b{
+            font-size: 13px;
+          }
+          #cirtext a{
+            /* text-wrap: nowrap; */
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+          }
+          #cirtext b{
+            display: inline-block;
+          }
+          .cart{
+            width: 50%;
+          }
+        
+}
