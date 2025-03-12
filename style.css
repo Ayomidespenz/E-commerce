@@ -1,4 +1,5 @@
 *{
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -281,3 +282,347 @@ button{
     border-radius: 10px;
     background-color: rgb(26, 185, 26);
 }
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex1{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+.img1{
+    background-image: url(/image/slider3.png.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 8px;
+    width: 70%;
+    height: 350px;
+}
+.hi h3{
+    color: black;
+}
+.hi p{
+    color: black;
+}
+.hey{
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 1.4;
+}
+.hey2{
+    margin-top: 10px;
+    margin-left: 40px;
+    line-height: 1.4;
+}
+button{
+    margin-left: 18px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.img2{
+    background-image: url(/image/banner1.png.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    padding: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    float: right;
+    margin-top: -60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.hello{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* border: 2px solid red; */
+}
+.iphone{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.hello1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* border-radius: 10px; */
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.hello1 .iphone img{
+    width: 50px;
+}
+.flex2{
+    /* border: 2px solid yellow; */
+    border-radius: 15px;
+}
+.flex2 h2{
+    margin-left: 30px;
+}
+.hello3{
+    /* border: 2px solid red; */
+    width: 30%;
+    padding: 20px;
+}
+.hello3 h2{
+    margin-top: 10px;
+}
+.all{
+    /* border: 2px solid green; */
+    background-color: #EDEEF5;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.exter{
+    border: 2px solid grey;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.hello4{
+    display: flex;
+    margin-left: 30px;
+    /* border: 3px solid purple; */
+    justify-content: space-around;
+}
+ .para{
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+.sub{
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+.presido{
+    display: flex;
+    margin-left: 30px;
+    /* border: 3px solid purple; */
+    justify-content: space-around;
+    
+}
+.presido h3{
+    font-size: 18px;
+}
+.general{
+    /* border: 3px solid yellow; */
+    padding: 20px;
+    width: 70%;
+}
+.section{
+    display: flex;
+}
+
+.txt1 h3{
+font-size: 12px;
+width: 155px;
+line-height: 1.5;
+}
+.txt1 p{
+    line-height: 1.6;
+}
+.txt1 .par{
+    color: red;
+}
+.txt1 .spa{
+    color: black;
+    font-size: 12px;
+}
+.pre{
+    color: green;
+    margin-top: 10px;
+}
+.txt2 h3{ 
+    font-size: 14px;
+    width: 170px; 
+    line-height: 1.5; 
+}
+.txt2 p{
+    line-height: 1.6;
+}
+.txt3 h3{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.txt3 p{
+    line-height: 1.6;
+}
+.txt3 .par{
+    color: red;
+}
+.txt3 .spa{
+    color: black;
+    font-size: 12px;
+}
+.txt4 h3{
+    width: 130px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.txt4 .par{
+    color: red;
+}
+.txt4 .spa{
+    color: black;
+    font-size: 12px;
+}
+.general1{
+    margin-bottom: 180px;
+    /* border: 3px solid red; */
+    width: 70%;
+}
+.hello31{
+    background-color: #EDEEF5;
+    margin-bottom: 150px;
+    width: 27%;
+    margin-left: 25px;
+    /* border: 2px solid yellow; */
+    padding: 30px;
+    border-radius: 10px;
+    /* line-height: 1.8; */
+}
+.red{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+.exter1{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.exter1 .pay{
+    padding: 20px;
+}
+
+.txt12 h3{
+    font-size: 14px;
+}
+.txt12 .par{
+    color: red;
+}
+.txt12 .spa{
+    color: black;
+    font-size: 12px;
+}
+.txt12{
+    width: 22%;
+    line-height: 1.6;
+}
+.txt21{
+    width: 22%;
+    margin-right: 40px;
+    line-height: 1.6;
+}
+.txt21 h3{
+font-size: 12px;
+margin-left: 20px;
+}
+.txt21 p{
+    margin-left: 20px;
+}
+.txt31 h3{
+    font-size: 14px;
+}
+.txt31{
+    width: 25%;
+    margin-right: 30px;
+    line-height: 1.6;
+}
+.txt31 .par{
+    color: green;
+    border-radius: 5px;
+    font-size: 14px;
+    /* background-color: rgba(207, 202, 202, 0.957); */
+    padding: 3px;
+}
+.txt31 .spa{
+    color: red;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    /* background-color: rgba(207, 202, 202, 0.957); */
+    padding: 3px;
+}
+.txt41{
+    width: 22%;
+}
+.txt41 h3{
+    font-size: 14px;
+}
+.txt41 .par{
+color: red;
+}
+.txt41 .spa{
+    color: black;
+    font-size: 12px;
+}
+.txt12 .par{
+    color: black;
+    font-weight: bold;
+}
+.txt21 .par{
+    color: red;
+    font-weight: bold;
+}
+.txt21 .spa{
+    color: black;
+    font-size: 10px;
+}
+.txt21 pre{
+    color: green;
+}
+.txt21{
+    line-height: 1.6;
+}
+.general12{
+    margin-top: -10%;
+}
+.hello35{
+    /* border: 2px solid red; */
+    margin-top: -15%;
+    margin-left: 25px;
+    background-color: #EDEEF5;
+    padding: 10px;
+    width: 39%;
+}
+.all12 img{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.hello311{
+    background-color: #EDEEF5;
+    margin-top: -160px;
+    width: 27%;
+    margin-left: 25px;
+    /* border: 2px solid yellow; */
+    padding: 30px;
+    border-radius: 10px;
+    height: 450px;
+}
+.general11{
+    /* border: 2px solid red; */
+    margin-top: -420px;
+    width: 70%;
+}
+
