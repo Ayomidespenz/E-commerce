@@ -885,7 +885,7 @@ input {
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1300px) {
 
 
     .main-container {
