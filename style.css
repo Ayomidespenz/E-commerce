@@ -1,0 +1,1701 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2E4EB;
+}
+
+.main-container {
+    width: 100%;
+    font-family: Montserrat;
+}
+
+nav {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 30px;
+
+}
+
+.hotline p {
+    display: inline-block;
+}
+
+#hot {
+    background-color: #EBEEF6;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.nave1 p {
+    margin-right: 20px;
+}
+
+.nave1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+
+
+}
+
+.swoo {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.swoo p {
+    display: inline-block;
+}
+
+.swoo2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.swoo1 {
+    margin-right: 20px;
+}
+
+hr {
+    margin: 0 10px;
+}
+
+.nav2 {
+    margin-top: 30px;
+    font-size: 20px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img1 p {
+    display: inline-block;
+}
+
+.img1 img {
+    margin-right: 20px;
+}
+
+#logo {
+    width: 200px;
+
+}
+
+#circle img {
+    width: 60px;
+}
+
+.logo {
+    width: 50%;
+
+}
+
+.cart {
+    width: 39%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart .img2 img {
+    margin-left: 10px;
+}
+
+.cart .img2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#circle img {
+    margin-right: 10px;
+}
+
+.page2 {
+    background-color: #1ABA1A;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+label {
+    border: none;
+    width: 30%;
+    padding: 20px;
+    font-weight: 700;
+}
+
+#lens {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    width: 20px;
+}
+
+#search {
+    width: 70%;
+    border: 1px solid black;
+    padding: 30px;
+    border: none;
+    border-radius: 60px;
+}
+
+.search {
+    position: relative;
+    width: 40%;
+    border-radius: 60px;
+    background-color: white;
+    color: black;
+}
+
+.its-text {
+    position: unset;
+    float: right;
+    width: 60%;
+    margin-top: -45px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* body part */
+.part1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.pic-img1 {
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px 0px 0px;
+}
+
+.pic-img2 {
+    width: 50%;
+}
+
+.pic-img3 {
+    width: 24.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pic-img1 p {
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.pic-text {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: white;
+}
+
+.pic-text h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.pic-text p {
+    color: white;
+    margin: 8px 0px 20px 20px;
+}
+
+.pic-text button {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.pic-toget {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pic-main,
+.pic-sub {
+    width: 49%;
+    position: relative;
+}
+
+.pic-main img,
+.pic-sub img {
+    width: 100%;
+}
+
+.pic-head {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.pic-head img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.pic-text1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.pic-text1 p {
+    text-decoration: underline;
+}
+
+.pic-text11 p {
+    color: white;
+}
+
+.pic-text11 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.pic-text1 span {
+    color: green;
+}
+
+.pic-text11 span {
+    color: #FFC107;
+}
+
+.pic-text1 h1 {
+    font-size: 18px;
+    color: black;
+}
+
+.pic-text11 h1 {
+    font-size: 18px;
+    color: white;
+}
+
+.pic-img31,
+.pic-img311 {
+    width: 100%;
+    position: relative;
+}
+
+.pic-img31 img {
+    width: 99%;
+    margin-bottom: 5px;
+}
+
+.pic-img311 img {
+    width: 99%;
+}
+
+.pic3-text1 {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.pic3-text1 h1 {
+    color: black;
+}
+
+.pic3-text1 button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    margin-top: 20px;
+}
+
+.pic3-text11 {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+.pic3-text11 h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.pic3-text11 p {
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.pic3-text11 span {
+    color: green;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.part2a {
+    padding: 30px;
+    width: 49%;
+    background-color: white
+}
+
+.part2a img {
+    /* flex: 20%; */
+    /* flex-wrap: wrap; */
+    width: 14%;
+    margin: 20px 20px;
+}
+
+.feat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tag {
+    width: 20%;
+    height: 20%;
+}
+
+.tag {
+    margin: 30px 20px;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.alone {
+    background-color: #1ABA1A;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.part3a {
+    width: 79%;
+}
+
+.part31b h2 {
+    max-width: 80%;
+}
+
+.part31b h1 {
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.part31 {
+    display: flex;
+    flex-direction: row;
+}
+
+.part31a {
+    width: 50%;
+    background-color: white;
+
+}
+
+.part31b {
+    background-color: white;
+    padding: 20px;
+}
+
+.part3a img {
+    width: 100%;
+}
+
+#num {
+    margin-left: 100px;
+}
+
+.part3b {
+    width: 20%;
+}
+
+.game {
+    width: 100%;
+}
+
+.game img {
+    width: 100%;
+}
+
+#ship {
+    display: inline;
+    border-radius: 10px;
+    padding: 8px 20px;
+    background-color: #FEF5F4;
+    color: red;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.dip {
+    background-color: #F4FCF4 !important;
+    color: green !important;
+}
+
+.dhs {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dhs img {
+    width: 80px;
+    margin: 10px;
+}
+
+.range {
+    margin: 10px;
+}
+
+.part4 {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    margin: 20px 0;
+}
+
+.part4 span {
+    color: yellowgreen;
+}
+
+.card p {
+    padding: 5px !important;
+    font-size: 10px;
+}
+
+.card {
+    width: 20%;
+    margin: 0 16px;
+}
+
+.cardset {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    border-bottom: 1px solid;
+}
+
+#hip {
+    background-color: #F4F4F4;
+    color: black;
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.part5 hr {
+    display: none;
+}
+
+.card h3 {
+    margin: 10px 0;
+
+}
+
+.part5 h1 {
+    font-size: 20px;
+    color: red;
+}
+
+.part3 h1 {
+    color: red;
+}
+
+small {
+    color: black;
+}
+
+.card h4 {
+    max-width: 80%;
+}
+
+.part5 {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#bts {
+    width: 30px;
+    border: 1px solid;
+
+}
+
+.part5 button {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+}
+
+.check {
+    width: 24%;
+    margin-top: 20px;
+}
+
+.check h3 {
+    max-width: 85%;
+}
+
+.check p {
+    font-size: 12px;
+    margin-top: 10px;
+    max-width: 85%;
+}
+
+.part5 .pic-text {
+    top: 10px;
+}
+
+.redmi {
+    width: 50%;
+    position: relative;
+
+}
+
+.redmi img {
+    width: 100%;
+}
+
+.redmi2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.togets {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.part7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.omg {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.omg img {
+    width: 100% !important;
+}
+
+#a1 {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.part7-set {
+    width: 33%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.part7-set .redmi2 img {
+    width: 30%;
+    margin: 20px !important;
+}
+
+.part7-set .redmi2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.part8 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.part8a {
+    width: 49.4%;
+    position: relative;
+}
+
+.part8b {
+    width: 49.4%;
+    position: relative;
+}
+
+.part8 img {
+    width: 100%;
+}
+
+.par8 {
+    position: absolute;
+    top: 50px;
+    right: -40px;
+}
+
+.par8 h1 {
+    color: #FFE400;
+    font-size: 50px;
+}
+
+.par8 p {
+    color: white;
+    max-width: 70%;
+}
+
+.par81 {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.par81 h1 {
+    color: #fff;
+    font-size: 20px;
+    max-width: 30%;
+}
+
+.par81 p {
+    color: white;
+    max-width: 40%;
+}
+
+.par81 p,
+.par81 h1 {
+    display: inline-block;
+    width: 50%;
+}
+
+#al {
+    width: 40%;
+}
+
+.viewed {
+    display: flex;
+    flex-direction: row;
+}
+
+.view {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.view p {
+    max-width: 40%;
+}
+
+.part10 {
+    padding: 20px;
+}
+
+.part10 h3 {
+    margin: 40px 0;
+}
+
+
+
+
+
+
+/* ends of it */
+footer {
+    background-color: white;
+    margin: 10px 0;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding: 20px 10px;
+}
+
+.f1 {
+    width: 30%;
+    color: black;
+}
+
+.f2 {
+    width: 15%;
+    line-height: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #1ABA1A;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.picset img {
+    margin: 0 10px;
+}
+
+.toget {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.country {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe {
+    width: 70%;
+    padding: 0 40px;
+}
+
+.country p {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span {
+    color: red;
+}
+
+i {
+    display: flex;
+    margin: 10px 0px 80px 0px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    width: 40%;
+}
+
+.last {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.last a {
+    color: blue;
+    text-align: right;
+}
+
+.last p,
+.imag,
+.last a {
+    width: 30%;
+}
+
+.imag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+
+
+    .main-container {
+        width: 100%;
+        font-family: Montserrat;
+    }
+
+    nav {
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px 30px;
+
+    }
+
+    .hotline p {
+        display: inline-block;
+    }
+
+    #hot {
+        background-color: #EBEEF6;
+        padding: 10px;
+        border-radius: 9px;
+    }
+
+    .nave1 p {
+        margin-right: 20px;
+    }
+
+    .nave1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .swoo {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+
+    .swoo p {
+        display: inline-block;
+    }
+
+    .swoo2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .swoo1 {
+        margin-right: 20px;
+    }
+
+    hr {
+        margin: 0 10px;
+    }
+
+    .nav2 {
+        margin-top: 30px;
+        font-size: 15px;
+        text-wrap: nowrap;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .img1 p {
+        display: inline-block;
+    }
+
+    .img1 img {
+        margin-right: 10px;
+    }
+
+    #logo {
+        width: 100px;
+
+    }
+
+    #circle img {
+        width: 60px;
+    }
+
+    .logo {
+        width: 50%;
+
+    }
+
+    .cart {
+        width: 39%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #cirtext p,
+    #cirtext a,
+    #cirtext b {
+        font-size: 12px;
+    }
+
+    .cart .img2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    .cart #img211 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* margin-left: 40px; */
+    }
+
+    #circle img {
+        margin-right: 5px;
+        width: 40px;
+    }
+
+    .page2 {
+        background-color: #1ABA1A;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    label {
+        border: none;
+        width: 20%;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    #lens {
+        position: absolute;
+        right: 40px;
+        top: 19px;
+        width: 20px;
+    }
+
+    input {
+        width: 60%;
+        padding: 20px !important;
+        border: none;
+        border-radius: 60px;
+    }
+
+    .search {
+        position: relative;
+        width: 40%;
+        border-radius: 60px;
+        background-color: white;
+        color: black;
+    }
+
+    .its-text {
+        position: unset;
+        float: right;
+        width: 60%;
+        margin-top: -40px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 13px;
+    }
+
+    /* body part */
+    .part1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .pic-img1 {
+        width: 23%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 0px 0px;
+    }
+
+    .pic-img2 {
+        width: 50%;
+    }
+
+    .pic-img3 {
+        width: 24.2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pic-img1 p {
+        text-transform: uppercase;
+        line-height: 25px;
+    }
+
+    .pic-text {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        color: white;
+    }
+
+    .pic-text h1 {
+        color: white;
+        font-weight: 300;
+        font-size: 17px;
+    }
+
+    .pic-text p {
+        color: white;
+        margin: 8px 0px 10px 1px;
+        font-size: 17px;
+
+    }
+
+    .pic-text button {
+        border: none;
+        background-color: white;
+        color: black;
+        padding: 5px 16px;
+        font-size: 18px;
+        margin: 20px 0;
+        border-radius: 8px;
+    }
+
+    .pic-toget {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pic-main,
+    .pic-sub {
+        width: 49%;
+        position: relative;
+    }
+
+    .pic-main img,
+    .pic-sub img {
+        width: 100%;
+    }
+
+    .pic-head {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .pic-head img {
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    .pic-text1 {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .pic-text1 p {
+        text-decoration: underline;
+        font-size: 12px !important;
+    }
+
+    .pic-text1 h1 {
+        font-size: 12px !important;
+    }
+
+    .pic-text11 p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .pic-text11 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+    .pic-text1 span {
+        color: green;
+    }
+
+    .pic-text11 span {
+        color: #FFC107;
+    }
+
+    .pic-text1 h1 {
+        font-size: 18px;
+        color: black;
+    }
+
+    .pic-text11 h1 {
+        font-size: 12px;
+        color: white;
+    }
+
+    .pic-img31,
+    .pic-img311 {
+        width: 100%;
+        position: relative;
+    }
+
+    .pic-img31 img {
+        width: 99%;
+        margin-bottom: 5px;
+    }
+
+    .pic-img311 img {
+        width: 99%;
+    }
+
+    .pic3-text1 {
+        position: absolute;
+        top: 40px;
+        right: 10px;
+    }
+
+    .pic3-text1 h1 {
+        color: black;
+    }
+
+    .pic3-text1 button {
+        padding: 8px 10px;
+        font-size: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #333333;
+        color: white;
+        margin-top: 7px;
+    }
+
+    .pic3-text11 {
+        position: absolute;
+        top: 25px;
+        left: 30px;
+    }
+
+    .pic3-text1 p,
+    .pic3-text1 h1 {
+        font-size: 12px;
+    }
+
+    .pic3-text11 h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+
+    }
+
+    .pic3-text11 p {
+        margin-top: 5px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .pic3-text11 span {
+        color: green;
+    }
+
+    .part2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .part2a {
+        padding: 30px;
+        width: 49%;
+        background-color: white
+    }
+
+    .part2a img {
+        width: 10%;
+        margin: 10px 20px;
+    }
+
+    .feat {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #tag {
+        width: 15%;
+    }
+
+    .tag {
+        margin: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .alone {
+        background-color: #1ABA1A;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .part3a {
+        width: 75%;
+    }
+
+    .part31b h2 {
+        max-width: 80%;
+        font-size: 10px;
+    }
+
+    .part31b h1 {
+        /* font-weight: 600; */
+        /* margin: 9px 0; */
+        font-size: 10px;
+    }
+
+    .part31 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .part31a {
+        width: 50%;
+        background-color: white;
+
+    }
+
+    .part31b {
+        background-color: white;
+        padding: 20px;
+    }
+
+    .part3a img {
+        width: 100%;
+    }
+
+    #num {
+        margin-left: 100px;
+    }
+
+    .part3b {
+        width: 26%;
+    }
+
+    .game {
+        width: 100%;
+    }
+
+    .game img {
+        width: 100%;
+    }
+
+    #ship {
+        display: inline;
+        border-radius: 10px;
+        padding: 8px 10px;
+        font-size: 10px;
+        background-color: #FEF5F4;
+        color: red;
+    }
+
+    li {
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+    .dip {
+        background-color: #F4FCF4 !important;
+        color: green !important;
+    }
+
+    .dhs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .dhs img {
+        width: 40px;
+        margin: 10px;
+    }
+
+    .range {
+        margin: 4px;
+        font-size: 10px;
+    }
+
+    .part4 {
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0;
+        margin: 20px 0;
+    }
+
+    .part4 span {
+        color: yellowgreen;
+    }
+
+    .card p {
+        padding: 5px !important;
+        font-size: 10px;
+    }
+
+    .card {
+        width: 20%;
+    }
+
+    .carpic img {
+        width: 100%;
+    }
+
+    .cardset {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 30px 1px;
+
+        border-bottom: 1px solid;
+    }
+
+    #hip {
+        background-color: #F4F4F4;
+        color: black;
+        width: 30%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .part5 hr {
+        display: none;
+    }
+
+    .card h3 {
+        margin: 10px 0;
+
+    }
+
+    .part5 h1 {
+        font-size: 20px;
+        color: red;
+    }
+
+    .part3 h1 {
+        color: red;
+    }
+
+    small {
+        color: black;
+    }
+
+    .card h4 {
+        max-width: 80%;
+    }
+
+    .part5 {
+        background-color: white;
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    #bts {
+        width: 30px;
+        /* border: 1px solid; */
+    }
+
+    .part5 button {
+        padding: 8px 20px;
+        border-radius: 8px;
+        border: 1px solid green;
+        color: green;
+        background-color: transparent;
+    }
+
+    .check {
+        width: 20%;
+        margin-top: 20px;
+    }
+
+    .check h3 {
+        max-width: 85%;
+    }
+
+    .checkimg img {
+        width: 100%;
+    }
+
+    .check p {
+        font-size: 12px;
+        margin-top: 10px;
+        max-width: 85%;
+    }
+
+    .part5 .pic-text {
+        top: 10px;
+    }
+
+    .redmi {
+        width: 50%;
+        position: relative;
+
+    }
+
+    .redmi img {
+        width: 100%;
+    }
+
+    .redmi2 {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .togets {
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+    }
+
+    .part7 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .omg {
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .omg img {
+        width: 100% !important;
+    }
+
+    #a1 {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .part7-set {
+        width: 33%;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: white;
+
+    }
+
+    .part7-set .redmi2 img {
+        width: 30%;
+        margin: 20px !important;
+    }
+
+    .part7-set .redmi2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .part8 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .part8a {
+        width: 49.4%;
+        position: relative;
+    }
+
+    .part8b {
+        width: 49.4%;
+        position: relative;
+    }
+
+    .part8 img {
+        width: 100%;
+    }
+
+    .par8 {
+        position: absolute;
+        top: 50px;
+        right: -40px;
+    }
+
+    .par8 h1 {
+        color: #FFE400;
+        font-size: 50px;
+    }
+
+    .par8 p {
+        color: white;
+        max-width: 70%;
+    }
+
+    .par81 {
+        position: absolute;
+        top: 60px;
+        left: 40px;
+    }
+
+    .par81 h1 {
+        color: #fff;
+        font-size: 20px;
+        max-width: 30%;
+    }
+
+    .par81 p {
+        color: white;
+        max-width: 40%;
+    }
+
+    .par81 p,
+    .par81 h1 {
+        display: inline-block;
+        width: 50%;
+    }
+
+    #al {
+        width: 40%;
+    }
+
+    .viewed {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .view {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .view p {
+        max-width: 40%;
+    }
+
+    .part10 {
+        padding: 20px;
+    }
+
+    .part10 h3 {
+        margin: 40px 0;
+    }
+
+
+
+
+
+
+    /* ends of it */
+    footer {
+        font-size: 11px !important;
+    }
+
+    .f2,
+    .f2 h2,
+    .f1,
+    .f1 h1,
+    .f1 h2 {
+        font-size: 13px;
+    }
+
+    .imag img {
+        margin: 0px 2px;
+    }
+
+    .imag img {
+        width: 40px;
+        height: 20px;
+    }
+
+}
